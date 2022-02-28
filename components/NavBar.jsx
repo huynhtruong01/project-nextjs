@@ -20,7 +20,11 @@ function NavBar(props) {
             About
           </Link>
         </li>
-        <li>Contact</li>
+        <li>
+          <Link href="/contact" passHref={true}>
+            Contact
+          </Link>
+        </li>
       </ul>
     </div>
   )
