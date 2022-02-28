@@ -33,7 +33,7 @@ function Contact(props) {
         <ul>
           {userList.length > 0
             ? userList.map((user) => (
-                <Link href={`/contact/${user.id}`} key={user.id}>
+                <Link href={`/contact/${user.id}`} key={user.id} passHref={true}>
                   {user.name}
                 </Link>
               ))

@@ -22,7 +22,10 @@ function NotFound(props) {
         <h1>Opppppp...</h1>
         <h4>Page not found</h4>
         <p>
-          Please return page home <Link href="/">Home page</Link>
+          Please return page home{' '}
+          <Link href="/" passHref={true}>
+            Home page
+          </Link>
         </p>
       </div>
     </>
