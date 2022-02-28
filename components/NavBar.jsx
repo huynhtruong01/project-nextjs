@@ -12,17 +12,15 @@ function NavBar(props) {
       <ul>
         <li>
           <Link href="/" passHref={true}>
-            <a href="">Home</a>
+            Home
           </Link>
         </li>
         <li>
           <Link href="/about" passHref={true}>
-            <a href="">About</a>
+            About
           </Link>
         </li>
-        <li>
-          <a href="/contact">Contact</a>
-        </li>
+        <li>Contact</li>
       </ul>
     </div>
   )
